@@ -24,13 +24,8 @@ import javax.persistence.Transient;
 
 import com.william.pontointeligente.api.enums.PerfilEnum;
 
-import lombok.Getter;
-import lombok.Setter;
-
 @Entity
 @Table(name = "funcionario")
-@Getter
-@Setter
 public class Funcionario implements Serializable {
 
 	private static final long serialVersionUID = 1L;

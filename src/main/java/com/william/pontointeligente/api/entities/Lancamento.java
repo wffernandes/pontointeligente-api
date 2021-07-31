@@ -20,13 +20,8 @@ import javax.persistence.TemporalType;
 
 import com.william.pontointeligente.api.enums.TipoEnum;
 
-import lombok.Getter;
-import lombok.Setter;
-
 @Entity
 @Table(name = "lancamento")
-@Getter
-@Setter
 public class Lancamento implements Serializable {
 
 	private static final long serialVersionUID = 1L;

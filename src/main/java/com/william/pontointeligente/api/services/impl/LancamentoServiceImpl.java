@@ -31,7 +31,7 @@ public class LancamentoServiceImpl implements LancamentoService{
 	@Cacheable("lancamentoPorId")
 	public Optional<Lancamento> buscarPorId(Long id) {
 		log.info("Buscando um lançamento pelo ID {}", id);
-		return Optional.ofNullable(this.lancamentoRepository.findOne(id));
+		return Optional.empty();
 	}
 	
 	@CachePut("lancamentoPorId")

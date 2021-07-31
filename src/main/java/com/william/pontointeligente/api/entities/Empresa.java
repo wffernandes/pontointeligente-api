@@ -16,13 +16,8 @@ import javax.persistence.PrePersist;
 import javax.persistence.PreUpdate;
 import javax.persistence.Table;
 
-import lombok.Getter;
-import lombok.Setter;
-
 @Entity
 @Table(name = "empresa")
-@Getter
-@Setter
 public class Empresa implements Serializable {
 
 	private static final long serialVersionUID = 3960436649365666213L;
